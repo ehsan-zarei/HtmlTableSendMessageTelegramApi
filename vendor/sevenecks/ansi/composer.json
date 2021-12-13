@@ -1,0 +1,23 @@
+{
+    "name": "sevenecks/ansi",
+    "description": "This package offers an API to colorize strings of text with various ANSI colors using static methods.",
+    "keywords": ["colors", "color", "console", "cli", "shell", "ansi"],
+    "homepage": "https://github.com/sevenecks",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brendan Butts",
+            "email": "bbutts@stormcode.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4" 
+    },
+    "autoload": {
+        "psr-4": {
+            "SevenEcks\\Ansi\\": "src/"
+        }
+    }
+}

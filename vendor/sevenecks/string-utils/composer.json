@@ -1,0 +1,26 @@
+{
+    "name": "sevenecks/string-utils",
+    "description": "A collection of string utilities for PHP, loosely based on the LambdaMOO $string_utils package.",
+    "keywords": ["string", "lambdamoo", "console", "cli", "shell", "formatting", "command line"],
+    "homepage": "https://github.com/sevenecks",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brendan Butts",
+            "email": "bbutts@stormcode.net"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+    },
+    "require": {
+        "php": ">=5.4",
+        "sevenecks/ansi": "^1"
+    },
+    "autoload": {
+        "psr-4": {
+            "SevenEcks\\StringUtils\\": "src/"
+        }
+    }
+}

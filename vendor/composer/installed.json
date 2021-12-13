@@ -1,0 +1,170 @@
+{
+    "packages": [
+        {
+            "name": "sevenecks/ansi",
+            "version": "1.0.9",
+            "version_normalized": "1.0.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SevenEcks/ansi.git",
+                "reference": "54921aa60f78a700ab2cf8bad5ea9554e1c2c6ac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SevenEcks/ansi/zipball/54921aa60f78a700ab2cf8bad5ea9554e1c2c6ac",
+                "reference": "54921aa60f78a700ab2cf8bad5ea9554e1c2c6ac",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "time": "2018-09-11T19:26:37+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "SevenEcks\\Ansi\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brendan Butts",
+                    "email": "bbutts@stormcode.net"
+                }
+            ],
+            "description": "This package offers an API to colorize strings of text with various ANSI colors using static methods.",
+            "homepage": "https://github.com/sevenecks",
+            "keywords": [
+                "ansi",
+                "cli",
+                "color",
+                "colors",
+                "console",
+                "shell"
+            ],
+            "support": {
+                "issues": "https://github.com/SevenEcks/ansi/issues",
+                "source": "https://github.com/SevenEcks/ansi/tree/1.0.9"
+            },
+            "install-path": "../sevenecks/ansi"
+        },
+        {
+            "name": "sevenecks/string-utils",
+            "version": "0.0.15",
+            "version_normalized": "0.0.15.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SevenEcks/string-utils.git",
+                "reference": "5d5a6e3d3d90da6e4c6e50910e8b981283a423c5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SevenEcks/string-utils/zipball/5d5a6e3d3d90da6e4c6e50910e8b981283a423c5",
+                "reference": "5d5a6e3d3d90da6e4c6e50910e8b981283a423c5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4",
+                "sevenecks/ansi": "^1"
+            },
+            "time": "2018-04-03T21:49:28+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "SevenEcks\\StringUtils\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brendan Butts",
+                    "email": "bbutts@stormcode.net"
+                }
+            ],
+            "description": "A collection of string utilities for PHP, loosely based on the LambdaMOO $string_utils package.",
+            "homepage": "https://github.com/sevenecks",
+            "keywords": [
+                "cli",
+                "command line",
+                "console",
+                "formatting",
+                "lambdamoo",
+                "shell",
+                "string"
+            ],
+            "support": {
+                "issues": "https://github.com/SevenEcks/string-utils/issues",
+                "source": "https://github.com/SevenEcks/string-utils/tree/master"
+            },
+            "install-path": "../sevenecks/string-utils"
+        },
+        {
+            "name": "sevenecks/tableify",
+            "version": "0.0.5",
+            "version_normalized": "0.0.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SevenEcks/tableify.git",
+                "reference": "f6d0e205fa5b8344123b5d7ebc09eb0a457e234c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SevenEcks/tableify/zipball/f6d0e205fa5b8344123b5d7ebc09eb0a457e234c",
+                "reference": "f6d0e205fa5b8344123b5d7ebc09eb0a457e234c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0",
+                "sevenecks/string-utils": "^0.0.15"
+            },
+            "time": "2018-04-06T17:06:43+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "SevenEcks\\Tableify\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brendan Butts",
+                    "email": "bbutts@stormcode.net"
+                }
+            ],
+            "description": "Transform a multidimensional array into a pretty table that can be echoed to the screen or logged to a file.",
+            "homepage": "https://github.com/sevenecks",
+            "keywords": [
+                "array to table",
+                "cli",
+                "command line",
+                "console",
+                "formatting",
+                "logging",
+                "php",
+                "pretty printer",
+                "shell",
+                "string",
+                "table printer"
+            ],
+            "support": {
+                "issues": "https://github.com/SevenEcks/tableify/issues",
+                "source": "https://github.com/SevenEcks/tableify/tree/master"
+            },
+            "install-path": "../sevenecks/tableify"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

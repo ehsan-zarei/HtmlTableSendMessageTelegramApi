@@ -1,0 +1,5 @@
+{
+    "require": {
+        "sevenecks/tableify": "^0.0.5"
+    }
+}
